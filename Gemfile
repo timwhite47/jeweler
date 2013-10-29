@@ -4,8 +4,8 @@ source "http://gems.github.com"
 
 gem "rake"
 gem "git", ">= 1.2.5"
-gem "nokogiri", ">= 1.5"
-gem "github_api", "0.10.1"
+gem "nokogiri", "~> 1.6.0"
+gem "github_api", "0.10.2"
 gem "highline", ">= 1.6.15"
 gem "bundler", "~> 1.0"
 gem "rdoc"
@@ -34,7 +34,7 @@ end
 group :xzibit do
   # steal a page from bundler's gemspec:
   # add this directory as jeweler, in order to bundle exec jeweler and use the current working directory
-  gem 'jeweler', :path => '.'
+  # gem 'jeweler', :path => '.'
 end
 
 
