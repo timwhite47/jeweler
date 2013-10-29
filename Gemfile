@@ -34,7 +34,7 @@ end
 group :xzibit do
   # steal a page from bundler's gemspec:
   # add this directory as jeweler, in order to bundle exec jeweler and use the current working directory
-  # gem 'jeweler', :path => '.'
+  gem 'jeweler', :path => '.'
 end
 
 
